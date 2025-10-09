@@ -1,5 +1,9 @@
 local opt = vim.opt
 
+-- for nvim-tree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 --opt.showtabline = 2
 opt.number = true
 opt.relativenumber = true
