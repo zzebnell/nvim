@@ -5,23 +5,26 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 --opt.showtabline = 2
-opt.number = true
 opt.relativenumber = true
+opt.number = true
 
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
+-- ???
+opt.wrap = false
+
 -- search settings
 opt.ignorecase = true
 opt.smartcase = true
 
-opt.cursorline = false
+opt.cursorline = true
 
 opt.termguicolors = true
 --opt.background = "light"
---opt.background = "dark"
+opt.background = "dark"
 opt.signcolumn = "no"
 
 -- backspace
