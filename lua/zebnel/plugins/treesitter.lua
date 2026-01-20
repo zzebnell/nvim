@@ -13,6 +13,7 @@ return {
         "lua",
         "haskell",
         "python",
+        "nix",
 
         "html",
         "css",
