@@ -3,6 +3,6 @@ return {
   config = function()
     vim.g.nord_italic = false
 
-    vim.cmd.colorscheme('nord')
+    --vim.cmd.colorscheme('nord')
   end
 }
